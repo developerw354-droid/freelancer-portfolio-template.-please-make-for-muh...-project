@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muhammad Hanain — Portfolio Preview</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Minor custom scrollbar for a polished preview */
+    ::-webkit-scrollbar { height: 8px; width: 8px; }
+    ::-webkit-scrollbar-thumb { background: rgba(16, 185, 129, 0.22); border-radius: 999px; }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-gray-900 via-gray-900 to-gray-900 antialiased text-slate-200">
+  <section class="max-w-3xl mx-auto my-16 bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-2xl shadow-xl p-8 ring-1 ring-black/40">
+    <!-- Hero -->
+    <div class="flex items-start gap-6">
+      <div class="flex-shrink-0">
+        <div class="h-20 w-20 rounded-lg bg-gradient-to-br from-emerald-500 to-emerald-400 flex items-center justify-center shadow-md">
+          <span class="text-2xl font-semibold text-gray-900">MH</span>
+        </div>
+      </div>
+      <div class="flex-1">
+        <h1 class="text-3xl font-semibold text-white">Muhammad Hanain</h1>
+        <p class="mt-1 text-emerald-300 font-medium">Full-Stack Developer • UI/UX-focused</p>
+        <p class="mt-3 text-sm text-slate-300">
+          I craft scalable web applications and intuitive user interfaces. I specialize in modern JavaScript stacks, responsive design, and polished product experiences that drive user engagement.
+        </p>
+        <div class="mt-4 flex gap-3">
+          <a href="#contact" class="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-emerald-500 hover:bg-emerald-400 text-gray-900 font-semibold shadow">
+            Hire Me
+          </a>
+          <a href="#portfolio" class="inline-flex items-center gap-2 px-4 py-2 rounded-md border border-gray-700 text-slate-200 hover:bg-gray-700/40 text-sm">
+            View Work
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="my-6 border-t border-gray-700"></div>
+
+    <!-- Skills -->
+    <div>
+      <h2 class="text-lg font-semibold text-white">Skills</h2>
+      <div class="mt-3 flex flex-wrap gap-2">
+        <span class="inline-flex items-center px-3 py-1.5 rounded-full bg-gray-700/60 text-sm text-emerald-200 border border-gray-700">JavaScript</span>
+        <span class="inline-flex items-center px-3 py-1.5 rounded-full bg-gray-700/60 text-sm text-emerald-200 border border-gray-700">React</span>
+        <span class="inline-flex items-center px-3 py-1.5 rounded-full bg-gray-700/60 text-sm text-emerald-200 border border-gray-700">Node.js</span>
+        <span class="inline-flex items-center px-3 py-1.5 rounded-full bg-gray-700/60 text-sm text-emerald-200 border border-gray-700">Tailwind CSS</span>
+        <span class="inline-flex items-center px-3 py-1.5 rounded-full bg-gray-700/60 text-sm text-emerald-200 border border-gray-700">TypeScript</span>
+        <span class="inline-flex items-center px-3 py-1.5 rounded-full bg-gray-700/60 text-sm text-emerald-200 border border-gray-700">API Design</span>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="my-6 border-t border-gray-700"></div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+      <h2 class="text-lg font-semibold text-white">Portfolio</h2>
+      <p class="mt-2 text-sm text-slate-300">Selected projects showcasing product-focused frontend and full-stack work.</p>
+      <div class="mt-4 grid grid-cols-2 gap-4">
+        <!-- Project 1 -->
+        <article class="rounded-lg overflow-hidden bg-gradient-to-br from-gray-700 to-gray-600 shadow">
+          <div class="h-28 bg-gradient-to-tr from-emerald-500/30 to-emerald-400/10 flex items-end p-3">
+            <h3 class="text-white font-semibold">FinTrack Dashboard</h3>
+          </div>
+          <div class="p-3 bg-gray-800">
+            <p class="text-sm text-slate-300">A responsive financial dashboard with real-time charts and CSV import.</p>
+            <div class="mt-3 flex gap-2">
+              <span class="text-xs bg-gray-700/50 px-2 py-1 rounded text-emerald-200">React</span>
+              <span class="text-xs bg-gray-700/50 px-2 py-1 rounded text-emerald-200">D3</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="rounded-lg overflow-hidden bg-gradient-to-br from-gray-700 to-gray-600 shadow">
+          <div class="h-28 bg-gradient-to-tr from-emerald-500/30 to-emerald-400/10 flex items-end p-3">
+            <h3 class="text-white font-semibold">ShopFlow E-commerce</h3>
+          </div>
+          <div class="p-3 bg-gray-800">
+            <p class="text-sm text-slate-300">Headless e-commerce with custom checkout and inventory management.</p>
+            <div class="mt-3 flex gap-2">
+              <span class="text-xs bg-gray-700/50 px-2 py-1 rounded text-emerald-200">Next.js</span>
+              <span class="text-xs bg-gray-700/50 px-2 py-1 rounded text-emerald-200">Stripe</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="rounded-lg overflow-hidden bg-gradient-to-br from-gray-700 to-gray-600 shadow">
+          <div class="h-28 bg-gradient-to-tr from-emerald-500/30 to-emerald-400/10 flex items-end p-3">
+            <h3 class="text-white font-semibold">TeamSpace</h3>
+          </div>
+          <div class="p-3 bg-gray-800">
+            <p class="text-sm text-slate-300">Collaboration tool with real-time updates and role-based access.</p>
+            <div class="mt-3 flex gap-2">
+              <span class="text-xs bg-gray-700/50 px-2 py-1 rounded text-emerald-200">Socket.io</span>
+              <span class="text-xs bg-gray-700/50 px-2 py-1 rounded text-emerald-200">MongoDB</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="rounded-lg overflow-hidden bg-gradient-to-br from-gray-700 to-gray-600 shadow">
+          <div class="h-28 bg-gradient-to-tr from-emerald-500/30 to-emerald-400/10 flex items-end p-3">
+            <h3 class="text-white font-semibold">Portfolio Builder</h3>
+          </div>
+          <div class="p-3 bg-gray-800">
+            <p class="text-sm text-slate-300">A lightweight portfolio generator with customizable themes and SEO tools.</p>
+            <div class="mt-3 flex gap-2">
+              <span class="text-xs bg-gray-700/50 px-2 py-1 rounded text-emerald-200">Static Sites</span>
+              <span class="text-xs bg-gray-700/50 px-2 py-1 rounded text-emerald-200">Vite</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="my-6 border-t border-gray-700"></div>
+
+    <!-- Testimonials & Contact (two-column on larger, stacked on small) -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+      <!-- Testimonials -->
+      <div>
+        <h2 class="text-lg font-semibold text-white">Testimonials</h2>
+        <blockquote class="mt-3 p-4 rounded-lg bg-gray-800 border border-gray-700">
+          <div class="flex items-center gap-3">
+            <div class="h-10 w-10 rounded-full bg-emerald-500 flex items-center justify-center text-gray-900 font-semibold">AC</div>
+            <div>
+              <p class="text-sm font-medium text-white">Amir Chaudhry</p>
+              <p class="text-xs text-slate-400">CEO, Finvest Labs</p>
+            </div>
+          </div>
+          <p class="mt-3 text-sm text-slate-300">"Muhammad delivered a polished dashboard ahead of schedule. His attention to UX and performance improvements increased our user retention significantly."</p>
+        </blockquote>
+
+        <blockquote class="mt-4 p-4 rounded-lg bg-gray-800 border border-gray-700">
+          <div class="flex items-center gap-3">
+            <div class="h-10 w-10 rounded-full bg-emerald-400 flex items-center justify-center text-gray-900 font-semibold">RS</div>
+            <div>
+              <p class="text-sm font-medium text-white">Rania Saleem</p>
+              <p class="text-xs text-slate-400">Product Manager, ShopFlow</p>
+            </div>
+          </div>
+          <p class="mt-3 text-sm text-slate-300">"Great communication and problem-solving. The e-commerce features he built reduced checkout friction and boosted conversions."</p>
+        </blockquote>
+      </div>
+
+      <!-- Contact Form -->
+      <div id="contact">
+        <h2 class="text-lg font-semibold text-white">Contact</h2>
+        <p class="mt-2 text-sm text-slate-300">Reach out to discuss a project, rates, or availability. I'll respond within 48 hours.</p>
+        <form action="#" method="post" class="mt-4 space-y-3">
+          <div>
+            <label for="email" class="text-sm text-slate-300">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com" class="mt-1 block w-full bg-gray-800 border border-gray-700 rounded-md px-3 py-2 text-slate-200 placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-400" />
+          </div>
+          <div>
+            <label for="message" class="text-sm text-slate-300">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Brief description of your project or inquiry" class="mt-1 block w-full bg-gray-800 border border-gray-700 rounded-md px-3 py-2 text-slate-200 placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-400"></textarea>
+          </div>
+          <div class="flex items-center gap-3">
+            <button type="submit" class="inline-flex items-center justify-center gap-2 px-4 py-2 rounded-md bg-emerald-500 hover:bg-emerald-400 text-gray-900 font-semibold shadow">
+              Send Message
+            </button>
+            <a href="mailto:muhammad.hanain@example.com" class="text-sm text-emerald-300 hover:underline">Or email: muhammad.hanain@example.com</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
